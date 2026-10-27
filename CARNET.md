@@ -127,11 +127,11 @@
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Pour une recherche un formulaire en get est mieux tandis que pour le form de connexion, le post est mieux. L'un est une recherche simple sans informations sensibles donc pas besoin de le cacher dans l'URL tandis que l'autre contient des données confidentielles à cacher. 
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :
 
 ---
 
