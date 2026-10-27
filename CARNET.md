@@ -131,7 +131,7 @@
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :
+   > _Ma réponse : Non, elles ne sont pas vraiment secrètes, on peut retrouver les données dans le 'payload'. 
 
 ---
 
