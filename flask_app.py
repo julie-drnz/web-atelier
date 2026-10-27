@@ -52,7 +52,7 @@ def home():
     return redirect("/")
 
 
-    @app.get("/secret")
+@app.get("/secret")
 def secret():
     abort(403)
 
