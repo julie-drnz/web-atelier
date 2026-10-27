@@ -55,8 +55,8 @@ def home():
 # 4xx : un accès interdit
 @app.get("/secret")
 def secret():
-    def accèsrefusé (erreur):
-    return render_template("403.html"), 403
+    def accès_refusé(erreur):
+    return render_template("403.html")
 
 
 # Une page d'erreur 404 personnalisée
