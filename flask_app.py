@@ -22,6 +22,9 @@ def accueil():
 @app.get("/presentation")
 def presentation():
     return render_template("presentation.html", prenom="Julie", nom="Di Renzo",loisirs=["Jeux vidéo", "Musique", "Sortir"])
+@app.get("/bonjour/<prenom>")
+def bonjour(prenom):
+    return f"<h1>Bonjour {prenom} !</h1>"
 
 
 # ---------------------------------------------------------------
