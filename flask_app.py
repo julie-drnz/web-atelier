@@ -52,11 +52,9 @@ def home():
     return redirect("/")
 
 
-# 4xx : un accès interdit
-@app.get("/secret")
+    @app.get("/secret")
 def secret():
-    def accès_refusé(erreur):
-    return render_template("403.html")
+    abort(403)
 
 
 # Une page d'erreur 404 personnalisée
