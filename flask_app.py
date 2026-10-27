@@ -33,6 +33,7 @@ def calcul():
 @app.get("/formulaire")
 def formulaire():
     return render_template("formulaire.html")
+    
 @app.route("/salut", methods=["GET", "POST"])
 def salut():
     if request.method == "POST":
