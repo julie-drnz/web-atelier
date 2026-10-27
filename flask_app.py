@@ -51,10 +51,13 @@ def salut():
 def home():
     return redirect("/")
 
-
 @app.get("/secret")
 def secret():
     abort(403)
+
+@app.errorhadler(403)
+def acces_refuse(erreur):
+    return render_template("403.html"), 403
 
 
 # Une page d'erreur 404 personnalisée
