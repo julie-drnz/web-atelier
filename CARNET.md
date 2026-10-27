@@ -71,15 +71,15 @@
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : le html la page en brut et le css c'est l'esthétique/qui donne le style au html
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse : 3 pour moi car il y 'a l'images, le css et le html
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Il faut faire CTRL + F5 pour recharger la page, les changements ne se font pas en direct live. 
 
 ---
 
@@ -87,19 +87,19 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : HTTP signifie HyperText Transfer Protocol, la requête est envoyée par le navigateur et la réponse est envoyée par le serveur.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : la requête déclenche 3 demandes pour les 3 fichiers respectifs, l'image le css et l'html.
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : le code 200 signifie que la page est "OK", 404 donne pas non trouvée dans le navigateur.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Car les modifications se font dans le navigateurs, donc uniquement pour nous vu que les modifications ne touchent pas le serveur. 
 
 ---
 
