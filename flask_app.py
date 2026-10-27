@@ -21,10 +21,15 @@ def accueil():
     return "Bienvenue sur le site de Juli !"
 @app.get("/presentation")
 def presentation():
-    return "Je m'appelle Julie et je suis en B2 INFRA"
-@app.get("/loisirs")
-def loisirs():
-    return "J'aime principalement sortir et les jeux vidéo"
+    return """
+    <h1>Julie Di renzo</h1>
+    <p>Je suis étudiante en <strong>deuxième année</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Les jeux vidéo</li>
+        <li>Sortir</li>
+    </ul>
+    """
     
 
 
