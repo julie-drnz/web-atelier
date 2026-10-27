@@ -72,7 +72,7 @@ def moi():
         langues=request.headers.get("Accept-Language"),
         entetes=request.headers,
     )
-    @app.get("/api/heure")
+@app.get("/api/heure")
 def api_heure():
     maintenant = datetime.now(ZoneInfo("Europe/Paris"))
     return jsonify({
@@ -80,6 +80,10 @@ def api_heure():
         "date": maintenant.strftime("%d/%m/%Y"),
         "message": "Bonjour depuis mon API !",
     })
+
+@app.get("/horloge")
+def horloge():
+    return render_template("horloge.html")
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
