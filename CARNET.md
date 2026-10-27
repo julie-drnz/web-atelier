@@ -154,19 +154,19 @@
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Mon adresse IP, mon navigateur et ma langue 
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : pour traduire automatiquement en la langue du système du client 
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : la page demandée était /aaaa
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Elle n'est pas si anonyme que ça malheureusement, encore la langue et le navigateur pourquoi pas, mais l'adresse ip rend la chose non-anonyme. Un VPN pourrait changer la donne cependant. 
 
 ---
 
