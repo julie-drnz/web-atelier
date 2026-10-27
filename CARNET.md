@@ -35,7 +35,7 @@
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse : si les deux fct portent le même nom, il affichera que la première. Sur le error.log, on retrouve le message d'erreur indiquant qu'une fct a essayé de s'écrire par dessus la première car elles ont le même nom.
 
 ---
 
