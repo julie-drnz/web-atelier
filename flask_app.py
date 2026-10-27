@@ -55,7 +55,7 @@ def home():
 def secret():
     abort(403)
 
-@app.errorhadler(403)
+@app.errorhandler(403)
 def acces_refuse(erreur):
     return render_template("403.html"), 403
 
