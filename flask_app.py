@@ -29,8 +29,8 @@ def presentation():
         <li>Les jeux vidéo</li>
         <li>Sortir</li>
     </ul>
-    """
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+    """
 
 
 # ---------------------------------------------------------------
