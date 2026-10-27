@@ -107,15 +107,15 @@
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : le nom du paramètres est search_query et la valeur est chat
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Le serveur plante car il ne peut pas convertir le texte en nombre, on ne peut pas l'éviter, le problème de laisser les mots à s'additionner peut juste renvoyer du charabia
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : c'est dangereux car il peut glisser des scripts malveillants et tout ce qu'il veut 
 
 ---
 
@@ -123,7 +123,7 @@
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Les données par GET sont visibles dans l'URL tandis que les données de POSTS ne le sont pas. 
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
